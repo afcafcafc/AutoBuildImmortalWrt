@@ -45,6 +45,7 @@ packages=(
   xl2tpd
   adb
   ntpdate
+  usbutils
   python3
   python3-pip
   python3-requests  
@@ -62,9 +63,6 @@ packages=(
   kmod-mt7601u
   kmod-mt76x0u
   kmod-mt76x2u
-  kmod-rtl8188eu
-  kmod-rtl8192cu
-  kmod-rtl8812au
 
   kmod-usb-ohci
   kmod-usb-uhci
