@@ -45,6 +45,9 @@ packages=(
   xl2tpd
   adb
   ntpdate
+  python3
+  python3-pip
+  python3-requests  
   kmod-usb-core
   kmod-usb2
   kmod-usb3
