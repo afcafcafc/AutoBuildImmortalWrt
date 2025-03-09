@@ -57,8 +57,6 @@ packages=(
   kmod-usb-net-asix-ax88179
   kmod-usb-net-asix
   kmod-ath9k-htc
-  kmod-mt76x0u
-  kmod-mt76x2u
   kmod-mt76
   kmod-mt7601u
   kmod-mt76x0u
