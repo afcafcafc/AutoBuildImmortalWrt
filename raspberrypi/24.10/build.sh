@@ -62,8 +62,7 @@ packages=(
   kmod-rtl8188eu
   kmod-rtl8192cu
   kmod-rtl8812au
-  kmod-rtl8821au
-  kmod-rtl88xxau
+
   kmod-usb-ohci
   kmod-usb-uhci
   kmod-ata-ahci
