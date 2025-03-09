@@ -38,8 +38,6 @@ packages=(
   luci-app-argon-config
   luci-i18n-ddns-go-zh-cn
   luci-i18n-frpc-zh-cn
-  luci-i18n-openvpn-server-zh-cn
-  luci-i18n-openvpn-zh-cn
   luci-i18n-ttyd-zh-cn
   luci-i18n-vsftpd-zh-cn
   luci-i18n-wol-zh-cn
