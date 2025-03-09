@@ -31,8 +31,67 @@ PACKAGES="$PACKAGES openssh-sftp-server"
 PACKAGES="$PACKAGES fdisk"
 PACKAGES="$PACKAGES script-utils"
 PACKAGES="$PACKAGES luci-i18n-samba4-zh-cn"
-PACKAGES="$PACKAGES adb"
-PACKAGES="$PACKAGES xl2tpd"
+
+packages=(
+  luci-i18n-airplay2-zh-cn
+  luci-i18n-alist-zh-cn
+  luci-app-argon-config
+  luci-i18n-ddns-go-zh-cn
+  luci-i18n-frpc-zh-cn
+  luci-i18n-openvpn-server-zh-cn
+  luci-i18n-openvpn-zh-cn
+  luci-i18n-ttyd-zh-cn
+  luci-i18n-vsftpd-zh-cn
+  luci-i18n-wol-zh-cn
+  luci-i18n-zerotier-zh-cn
+  xl2tpd
+  adb
+  ntpdate
+  kmod-usb-core
+  kmod-usb2
+  kmod-usb3
+  mt7601u-firmware
+  kmod-usb-net-rtl8152
+  kmod-usb-net-asix-ax88179
+  kmod-usb-net-asix
+  kmod-ath9k-htc
+  kmod-mt76x0u
+  kmod-mt76x2u
+  kmod-mt76
+  kmod-mt7601u
+  kmod-mt76x0u
+  kmod-mt76x2u
+  kmod-rtl8188eu
+  kmod-rtl8192cu
+  kmod-rtl8812au
+  kmod-rtl8821au
+  kmod-rtl88xxau
+  kmod-usb-ohci
+  kmod-usb-uhci
+  kmod-ata-ahci
+  kmod-ata-core
+  kmod-fs-ntfs
+  kmod-fs-ext4
+  kmod-usb-storage
+  kmod-usb-storage-extras
+  kmod-usb-serial
+  kmod-usb-serial-pl2303
+  kmod-usb-serial-ch341
+  kmod-usb-printer
+  kmod-usb-net-rndis
+  kmod-i2c-core
+  kmod-i2c-gpio
+  kmod-spi-dev
+  kmod-gpio-button-hotplug
+  kmod-leds-gpio
+  kmod-hid
+  kmod-hid-generic
+  kmod-sound-core
+  kmod-usb-audio
+)
+for pkg in "${packages[@]}"; do
+  PACKAGES="$PACKAGES $pkg"
+done
 
 
 
