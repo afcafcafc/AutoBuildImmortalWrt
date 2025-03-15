@@ -42,6 +42,7 @@ packages=(
   luci-i18n-vsftpd-zh-cn
   luci-i18n-wol-zh-cn
   luci-i18n-zerotier-zh-cn
+  luci-app-xray
   xl2tpd
   adb
   ntpdate
@@ -61,7 +62,7 @@ packages=(
   kmod-mt7601u
   kmod-mt76x0u
   kmod-mt76x2u
-
+  
   kmod-usb-ohci
   kmod-usb-uhci
   kmod-ata-ahci
