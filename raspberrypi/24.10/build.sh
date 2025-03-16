@@ -42,7 +42,9 @@ packages=(
   luci-i18n-vsftpd-zh-cn
   luci-i18n-wol-zh-cn
   luci-i18n-zerotier-zh-cn
-  luci-app-ipsec-vpnd
+  #luci-app-ipsec-vpnd
+  luci-app-softethervpn
+  ppp-mod-pptp
   xl2tpd
   adb
   ntpdate
