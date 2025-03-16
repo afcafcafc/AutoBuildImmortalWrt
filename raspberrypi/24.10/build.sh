@@ -12,7 +12,7 @@ echo "$(date '+%Y-%m-%d %H:%M:%S') - Starting build process..."
 # 定义所需安装的包列表
 PACKAGES=""
 PACKAGES="$PACKAGES curl"
-PACKAGES="$PACKAGES luci-i18n-firewall-zh-cn"
+#PACKAGES="$PACKAGES luci-i18n-firewall-zh-cn"
 # 服务——FileBrowser 用户名admin 密码admin
 PACKAGES="$PACKAGES luci-i18n-filebrowser-go-zh-cn"
 PACKAGES="$PACKAGES luci-app-argon-config"
@@ -43,7 +43,7 @@ packages=(
   luci-i18n-wol-zh-cn
   luci-i18n-zerotier-zh-cn
   #luci-app-ipsec-vpnd
-  luci-app-softethervpn
+  #luci-app-softethervpn
   ppp-mod-pptp
   xl2tpd
   adb
