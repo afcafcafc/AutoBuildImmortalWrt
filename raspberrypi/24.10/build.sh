@@ -57,6 +57,7 @@ packages=(
   kmod-ipsec4
   kmod-ipsec6
   iptables-mod-ipsec
+  iptables-nft
   kmod-usb2
   kmod-usb3
   mt7601u-firmware
