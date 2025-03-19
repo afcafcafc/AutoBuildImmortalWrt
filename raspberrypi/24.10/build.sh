@@ -53,6 +53,11 @@ packages=(
   python3-pip
   python3-requests  
   kmod-usb-core
+  kmod-xfrm
+  kmod-ipsec
+  kmod-ipsec4
+  kmod-ipsec6
+  iptables-mod-ipsec
   kmod-usb2
   kmod-usb3
   mt7601u-firmware
