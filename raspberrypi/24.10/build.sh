@@ -53,7 +53,6 @@ packages=(
   python3-pip
   python3-requests  
   kmod-usb-core
-  kmod-xfrm
   kmod-ipsec
   kmod-ipsec4
   kmod-ipsec6
