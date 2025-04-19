@@ -13,12 +13,12 @@ on:
           - rpi-3
           - rpi-4
           - rpi-5
-        default: rpi-4
+        default: rpi-5
       include_docker:
         description: |
           是否编译 Docker 插件
         required: true
-        default: 'no'
+        default: 'yes'
         type: choice
         options:
           - 'yes'
@@ -26,7 +26,7 @@ on:
       size:
         description: '请输入要编译固件大小 单位(MB)'
         required: true
-        default: '1024'
+        default: '2024'
 
 
 jobs:
