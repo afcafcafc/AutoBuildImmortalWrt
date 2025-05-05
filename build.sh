@@ -66,6 +66,7 @@ packages=(
   kmod-mt7601u
   kmod-mt76x0u
   kmod-mt76x2u
+  kmod-mt7921u
   kmod-usb-ohci
   kmod-usb-uhci
   kmod-ata-ahci
