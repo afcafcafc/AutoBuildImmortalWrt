@@ -12,6 +12,7 @@ mkdir -p  /home/build/immortalwrt/files/etc/config
 
 # 创建pppoe配置文件 yml传入环境变量ENABLE_PPPOE等 写入配置文件 供99-custom.sh读取
 cat << EOF > /home/build/immortalwrt/files/etc/config/pppoe-settings
+
 enable_pppoe=${ENABLE_PPPOE}
 pppoe_account=${PPPOE_ACCOUNT}
 pppoe_password=${PPPOE_PASSWORD}
@@ -31,7 +32,7 @@ PACKAGES=""
 
 packages=(
   luci-i18n-airplay2-zh-cn
-  luci-i18n-alist-zh-cn
+  #luci-i18n-alist-zh-cn
   luci-app-argon-config
   luci-i18n-ddns-go-zh-cn
   luci-i18n-frpc-zh-cn
