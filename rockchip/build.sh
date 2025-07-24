@@ -32,7 +32,7 @@ PACKAGES=""
 
 packages=(
   luci-i18n-airplay2-zh-cn
-  #luci-i18n-alist-zh-cn
+  luci-i18n-openlist-zh-cn
   luci-app-argon-config
   luci-i18n-ddns-go-zh-cn
   luci-i18n-frpc-zh-cn
