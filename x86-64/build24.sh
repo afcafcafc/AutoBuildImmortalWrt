@@ -88,7 +88,7 @@ packages=(
   kmod-usb2
   kmod-usb3
   mt7601u-firmware
-  kmod-usb-net-rtl8152
+  #kmod-usb-net-rtl8152
   kmod-usb-net-asix-ax88179
   kmod-usb-net-asix
   kmod-ath9k-htc
